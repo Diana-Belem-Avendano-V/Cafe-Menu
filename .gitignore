@@ -1,0 +1,39 @@
+# Windows
+Thumbs.db
+desktop.ini
+
+# Mac
+.DS_Store
+
+# VSCode
+.vscode/
+
+# Logs
+*.log
+
+# Environment variables
+.env
+.env.local
+.env.production
+
+
+# Variaciones de variables de entorno y secretos
+.env*
+!.env.example
+*.pem
+*.key
+
+# Archivos temporales, respaldos y notas personales
+*.tmp
+*.temp
+*.bak
+*.swp
+*~
+notes.txt
+TODO.txt
+temp/
+
+# Salidas de dependencias y pruebas (si llegas a usarlas)
+node_modules/
+dist/
+build/
